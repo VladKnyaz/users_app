@@ -11,7 +11,7 @@ class Application extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Users',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple, secondary: Colors.red),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple, secondary: Colors.white),
           appBarTheme: const AppBarTheme(backgroundColor: Colors.grey),
           useMaterial3: true,
         ),
