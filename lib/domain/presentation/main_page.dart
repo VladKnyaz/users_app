@@ -4,17 +4,17 @@ import 'package:users_app/domain/presentation/container/main_page_container.dart
 
 class MainPage extends StatefulWidget {
   @override
-  _MainPage createState() {
-    return _MainPage();
+  _MainPageState createState() {
+    return _MainPageState();
   }
 }
 
-class _MainPage extends State<MainPage> {
+class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBarUsers().build(),
-        body: MainPageContainer(),
+      appBar: AppBarUsers().build(),
+      body: MainPageContainer(),
     );
   }
 }

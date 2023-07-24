@@ -4,5 +4,3 @@ import 'package:users_app/domain/internal/application.dart';
 void main() {
   runApp(const Application());
 }
-
-

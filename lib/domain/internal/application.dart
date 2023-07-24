@@ -8,15 +8,15 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Users',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple, secondary: Colors.white),
-          appBarTheme: const AppBarTheme(backgroundColor: Colors.grey),
-          useMaterial3: true,
-        ),
-        home: MainPage(),
-
+      debugShowCheckedModeBanner: false,
+      title: 'Users',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.deepPurple, secondary: Colors.white),
+        appBarTheme: const AppBarTheme(backgroundColor: Color(0xAAD9D9D9)),
+        useMaterial3: true,
+      ),
+      home: MainPage(),
     );
   }
 }
